@@ -1,0 +1,15 @@
+.hero {
+	padding-inline: 2.25rem;
+	margin-bottom: 3.0625rem;
+
+	&__image {
+		margin-inline: auto;
+		width: min(100%, 24.75rem);
+		margin-bottom: 2rem;
+	}
+
+	p {
+		line-height: 1.6;
+		width: min(100%, 22.2rem);
+	}
+}

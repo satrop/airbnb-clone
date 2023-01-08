@@ -1,0 +1,20 @@
+.card {
+	background-color: var(--clr-n-500);
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+
+	&.br-sm {
+		border-radius: var(--br-sm);
+	}
+
+	&.br-lg {
+		border-radius: var(--br-lg);
+	}
+
+	&--main {
+		width: min(80%, 34.375rem);
+		margin-inline: auto;
+		margin-top: 25%;
+	}
+}

@@ -1,0 +1,52 @@
+.card-wrapper {
+	padding-inline: 2.25rem;
+	margin-bottom: 3.0625rem;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow: auto;
+	gap: 2rem;
+	scrollbar-width: none;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	.card {
+		width: 176px;
+		font-size: var(--fs-300);
+		display: flex;
+		flex-direction: column;
+		gap: 0.15rem;
+		flex-shrink: 0;
+
+		&__image {
+			position: relative;
+			margin-bottom: 0.25rem;
+
+			.badge {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				background-color: var(--clr-n-500);
+				border-radius: var(--br-xs);
+				padding: 0.25rem 0.45rem;
+			}
+		}
+
+		.info {
+			display: flex;
+			align-items: center;
+			gap: 0.25rem;
+
+			img {
+				width: 14px;
+			}
+
+			.count,
+			.place {
+				color: var(--clr-n-300);
+			}
+		}
+	}
+}

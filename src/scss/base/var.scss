@@ -1,0 +1,15 @@
+:root {
+	--clr-n-100: hsla(27, 48%, 92%, 1); // Background highlight
+	--clr-n-200: hsla(29, 46%, 88%, 1); // Background
+	--clr-n-300: hsla(254, 6%, 58%, 1); // Grey
+	--clr-n-400: hsla(0, 0%, 0%, 1); // Black
+	--clr-n-500: hsla(0, 100%, 100%, 1); // White
+
+	--fs-300: 0.75rem; // 12
+	--fs-400: 1rem; // 16
+	--fs-500: 2.25rem; // 36
+
+	--br-xs: 0.3125rem; // 5
+	--br-sm: 0.625rem; // 10
+	--br-lg: 1rem; // 16
+}

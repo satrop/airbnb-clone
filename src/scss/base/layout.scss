@@ -1,0 +1,16 @@
+body {
+	background-color: var(--clr-n-200);
+
+	&::after {
+		content: "";
+		position: fixed;
+		background-color: var(--clr-n-100);
+		width: 175vw;
+		aspect-ratio: 1;
+		top: 50%;
+		left: 5%;
+		transform: translate(30%, -50%);
+		border-radius: 50%;
+		z-index: 0;
+	}
+}
